@@ -32,4 +32,4 @@ jobs:
         KUBE_CONFIG_DATA: ${{ secrets.KUBE_CONFIG_DATA }}
         KUBECTL_VERSION: "1.20"
       with:
-        args: '"rollout status deployment/my-app"'
+        args: '"rollout status deployment/app"'
